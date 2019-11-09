@@ -84,3 +84,7 @@ summarise the assignment plan in your README. Another way is to use a to-do list
 The README need only contain an explanation of what is contained in the repository and how to run the Jupyter notebook. Your notebook should contain the main body of work and should list all references used in completing the assignment.
 
 # end
+
+The aim of the assignment is to be able to give a good overview of the numpy.random functions in our own words without rehashing the documentation. All of the functions return random value or values in some shape or form. They just generate different random numbers according to different probabilities over different intervals.
+
+A mixture of plots and statistics can be used to show the differences between the types of random numbers that would be generated from the different probability distributions.
