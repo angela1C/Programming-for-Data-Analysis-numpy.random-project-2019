@@ -35,12 +35,10 @@ Click the green Clone or download button
 
 However, the Jupyter Notebook [NumpyRandom.ipynb](https://github.com/angela1C/numpy.random/blob/master/NumpyRandom.ipynb) with all it's code and output can be viewed directly in this GitHub repository in the browser without Python 3 installed.
 
-If however the notebook doesn't render on GitHub as may happen from time to time, the url for this repository https://github.com/angela1C/numpy.random can be copied and pasted into the [Jupyter nbviewer ](https://nbviewer.jupyter.org ) at
+If, however the notebook doesn't render on GitHub as may happen from time to time, the url for this repository https://github.com/angela1C/numpy.random can be copied and pasted into the [Jupyter nbviewer ](https://nbviewer.jupyter.org ) at
 https://nbviewer.jupyter.org  where you enter the location of a Jupyter Notebook and click `Go` to have it rendered there.
 
 The aim of the project is to look at the numpy.random package and to be able to describe it in your own words and in a less formal way than the documentation does and not just recreate the entire numpy.random package documentation.
-
-(Instead a handful of numpy.random functions are explored with the aid of plots, descriptive statistics or any other way possible to give a more real flavour of the package and its uses.)
 
 I started this project by first getting familiar with the [Python NumPy](https://numpy.org/doc/1.16/reference/index.html#numpy-reference) reference manual and the [NumPy Quickstart tutorial](https://numpy.org/doc/1.16/user/quickstart.html) in the [NumPy User Guide](https://numpy.org/doc/1.16/user/index.html#numpy-user-guide) before looking at the [Random sampling (numpy.random)](https://numpy.org/doc/1.16/reference/routines.random.html) listed under the numpy routines of the user guide.
 
@@ -53,7 +51,6 @@ I referred to many online resources such as blogs and these are noted in the ref
 I found that there seemed to be some functions that appeared to do similar things and often the reference manual for one function referred to an example of a function with a different name.
 
 The **simple random data** functions all had related **distribution** functions. Therefore any plots are shown in the section describing the **distribution**  functions to avoid duplications. 
-**still need to reduce here!**
 
 The notebook is laid out as follows:
 
@@ -66,25 +63,3 @@ The notebook is laid out as follows:
 - [Task 4: Explain the use of seeds in generating pseudorandom numbers](#task4)
 - [References](#references)
   
-
-
-# notes to delete later!
-
-The project should be clearly organised and contain concise explanations of the particularities of the dataset. The analysis contained within the notebook will be well conceived, interesting, and well researched. Note that part of this assignment is about the use of Jupyter notebooks and so use should be made of all of the functionality available in the software including images, links, code and plots. Any addtional Python libraries may be used whether discussed in class or not.
-
-- Research. Investigation of the package as demonstrated by references, background information, and approach
-- Development. Clear, well-written, and efficient code with ap- propriate comments
-- Consistency. Good planning and pragmatic attitude to work as evidenced by commit history
-- Documentation. Concise descriptions and plots of theoretical and practical aspects of problems.
-
-
-Using information, code and data from outside sources is sometimes acceptable — so long as it is licensed to permit this, you clearly reference the source, and the overall assignment is substantially your own work.
-summarise the assignment plan in your README. Another way is to use a to-do list like GitHub Issues.
-
-The README need only contain an explanation of what is contained in the repository and how to run the Jupyter notebook. Your notebook should contain the main body of work and should list all references used in completing the assignment.
-
-# end
-
-The aim of the assignment is to be able to give a good overview of the numpy.random functions in our own words without rehashing the documentation. All of the functions return random value or values in some shape or form. They just generate different random numbers according to different probabilities over different intervals.
-
-A mixture of plots and statistics can be used to show the differences between the types of random numbers that would be generated from the different probability distributions.
