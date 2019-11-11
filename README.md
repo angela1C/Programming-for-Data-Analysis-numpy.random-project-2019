@@ -2,10 +2,6 @@ This repository contains my submission for the Programming for Data Analysis Mod
 
 
 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
-
-
 # Problem Statement.
 
 The assignment concerns the **numpy.random** package in Python. We are required to create a Jupyter notebook explaining the use of the package, including detailed explanations of at least five of the distributions provided for in the package. There are four distinct tasks to be carried out in your Jupyter notebook.
@@ -38,7 +34,7 @@ However, the Jupyter Notebook [NumpyRandom.ipynb](https://github.com/angela1C/nu
 If, however the notebook doesn't render on GitHub as may happen from time to time, the url for this repository https://github.com/angela1C/numpy.random can be copied and pasted into the [Jupyter nbviewer ](https://nbviewer.jupyter.org ) at
 https://nbviewer.jupyter.org  where you enter the location of a Jupyter Notebook and click `Go` to have it rendered there.
 
-The aim of the project is to look at the numpy.random package and to be able to describe it in your own words and in a less formal way than the documentation does and not just recreate the entire numpy.random package documentation.
+The aim of the project is to look at the numpy.random package and to be able to describe it in our own words.
 
 I started this project by first getting familiar with the [Python NumPy](https://numpy.org/doc/1.16/reference/index.html#numpy-reference) reference manual and the [NumPy Quickstart tutorial](https://numpy.org/doc/1.16/user/quickstart.html) in the [NumPy User Guide](https://numpy.org/doc/1.16/user/index.html#numpy-user-guide) before looking at the [Random sampling (numpy.random)](https://numpy.org/doc/1.16/reference/routines.random.html) listed under the numpy routines of the user guide.
 
@@ -48,7 +44,7 @@ This reference manual details functions, modules, and objects included in NumPy,
 
 I then went through the four main sections of the NumPy Random module looking at the [simple random data](https://numpy.org/doc/1.16/reference/routines.random.html#simple-random-data) and [permutation](https://numpy.org/doc/1.16/reference/routines.random.html#permutations) functions, before looking at the [distribution](https://numpy.org/doc/1.16/reference/routines.random.html#distributions) functions and the [Random Generator](https://numpy.org/doc/1.16/reference/routines.random.html#random-generator) section to get an idea of the numpy.random module. 
 I referred to many online resources such as blogs and these are noted in the references section. 
-I found that there seemed to be some functions that appeared to do similar things and often the reference manual for one function referred to an example of a function with a different name.
+I found that there seemed to be some functions that appeared to do similar things and often the reference manual for one function referred to an example of a similar function with a different name.
 
 The **simple random data** functions all had related **distribution** functions. Therefore any plots are shown in the section describing the **distribution**  functions to avoid duplications. 
 

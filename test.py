@@ -1,4 +1,4 @@
-print("hello")
+print("testing running python .py file in jupyter notebook")
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -10,5 +10,3 @@ np.std(s) # show that the standard deviation is 1
 
 sns.distplot(s)
 
-m1 = np.arange(3,20,2)
-s1 = np.arange()
